@@ -127,11 +127,17 @@ body{
     margin-right: 26px;
 } 
 .search-button {
-    padding: 8px;
+    padding: 0;
     border: none;
     margin-right: 22px;
     border-radius: 5px;
     background-color: #fff;
+}
+.search-button_wrapper {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .language-toggler {
     padding: 10px;
@@ -140,17 +146,31 @@ body{
     border-radius: 5px;
     background-color: #fff;
 }
+.language-toggler_wrapper {
+    display: flex;
+    align-items:center;
+    font-weight: 500;
+}
+.language-toggler_img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
 .telegram-sub {
     display: flex;
     align-items:center;
     padding: 10px;
-   
     color: #fff;
     border-radius: 5px;
     background-color: #1E96C8 ;
     background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
     text-decoration: none;
 } 
+.telegram-sub:hover {
+    background-image: linear-gradient(90deg, #37AEE2 15.07%, #1E96C8 85.96%);
+   
+}
 .telegram-sub_text {
     font-weight: 500;
     padding-left: 10px;
