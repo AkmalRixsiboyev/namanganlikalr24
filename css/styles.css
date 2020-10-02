@@ -83,3 +83,75 @@ body{
     padding: 0 20px;
     margin: 0 auto;
 }
+.site-header {
+    padding-top: 40px;
+    padding-bottom: 23px;
+    border-top: 4px solid #295093;
+    background-color: #f6f6f9;
+}
+.site-header_top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+}
+.site-header_actions {
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+}
+.exchange-rates{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 0;
+    margin: 0;
+    margin-left: 17px;
+    list-style-type: none;
+    color: #7A7A7A;
+}
+.exchange-rats__icon{
+    color: #285193;
+    font-weight: bold;
+}
+.exchange-rats__item:not(:last-child) {
+    margin-right: 26px;
+} 
+.search-button {
+    padding: 8px;
+    border: none;
+    margin-right: 22px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.language-toggler {
+    padding: 10px;
+    border: none;
+    margin-right: 24px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.telegram-sub {
+    display: flex;
+    align-items:center;
+    padding: 10px;
+   
+    color: #fff;
+    border-radius: 5px;
+    background-color: #1E96C8 ;
+    background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    text-decoration: none;
+} 
+.telegram-sub_text {
+    font-weight: 500;
+    padding-left: 10px;
+}
